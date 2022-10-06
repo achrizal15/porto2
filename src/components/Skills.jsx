@@ -6,7 +6,7 @@ function Skills() {
     return (
         <div className='gray-50 pb-10 snap-start dark:bg-[#7f7f7f] text-gray-900 pt-10 dark:text-gray-100' id="Skills">
             <h3 className="text-center text-2xl ">SKILLS</h3>
-            <div className="flex justify-start mx-40 gap-x-5 gap-y-5 flex-wrap mt-20">
+            <div className="flex justify-start md:mx-40 gap-x-5 mx-8 gap-y-5 flex-wrap mt-20">
                 <div className="h-24 w-24 rounded-lg shadow-lg dark:bg-[#6a6a6a] justify-center items-center flex flex-col">
                     <FaPython size={50}/>
                     <span>Python</span>
