@@ -1,5 +1,5 @@
 import { GoPrimitiveDot } from "react-icons/go"
-import {  BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs"
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs"
 import { AiOutlineMail } from "react-icons/ai"
 
 
@@ -11,33 +11,35 @@ function About() {
                 <div className="md:col-span-4 flex  relative justify-center">
                     <div className="flex p-4 flex-col bg-white dark:bg-[#6a6a6a] border dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] shadow-lg rounded-md">
                         <div className="h-80 relative border-b  dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] overflow-hidden">
-                            <img src="aku.jpg" className="absolute -top-20"  alt="aku" />
+                            <img src="aku.jpg" className="absolute -top-20" alt="aku" />
                         </div>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td className="align-top">Name</td>
-                                        <td className="align-top">:</td>
-                                        <td className="align-top">ACH Rizal</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="align-top">My Birthday</td>
-                                        <td className="align-top">:</td><td className="align-top">15 February 2000</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="align-top">Last Education</td>
-                                        <td className="align-top">:</td><td className="align-top">Bachelor of Technology in STIKOM PGRI Banyuwangi</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="align-top">Contact</td><td className="text-top">:</td>
-                                        <td className="flex gap-2 items-center"><AiOutlineMail size={15} />
-                                            <BsWhatsapp size={15} />
-                                            <BsGithub size={15} />
-                                            <BsLinkedin size={15} /></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                   
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td className="align-top">Name</td>
+                                    <td className="align-top">:</td>
+                                    <td className="align-top">ACH Rizal</td>
+                                </tr>
+                                <tr>
+                                    <td className="align-top">My Birthday</td>
+                                    <td className="align-top">:</td><td className="align-top">15 February 2000</td>
+                                </tr>
+                                <tr>
+                                    <td className="align-top">Last Education</td>
+                                    <td className="align-top">:</td><td className="align-top">Bachelor of Technology in STIKOM PGRI Banyuwangi</td>
+                                </tr>
+                                <tr>
+                                    <td className="align-top">Contact</td><td className="text-top">:</td>
+                                    <td className="flex gap-2 items-center">
+                                        <a rel="noreferrer" href="mailto:achrizal15@gmail.com" target="_blank"><AiOutlineMail size={15} /></a>
+                                        <a rel="noreferrer" href="https://wa.me/085234104446" target="_blank"><BsWhatsapp size={15} /></a>
+                                        <a rel="noreferrer" href="https://github.com/achrizal15" target="_blank">     <BsGithub size={15} /></a>
+                                        <a rel="noreferrer" href="https://www.linkedin.com/in/achrizal15/" target="_blank">         <BsLinkedin size={15} /></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
                 <div className="md:col-span-8">

@@ -18,7 +18,7 @@ function Home() {
           <Typewriter words={["Hi, I'm ACH Rizal", "I'm a Web Developer"]} loop cursor delaySpeed={3000} />
         </h3>
         <div className="flex justify-center">
-          <img onClick={() => changeMode()} src={`${appMode.darkmode ? "sunny.png" : "moon.png"}`} width={50} alt="moon" className="shadow-lg rounded-full mt-5" />
+          <img onClick={() => changeMode()} src={`${appMode.darkmode ? "sunny.png" : "moon.png"}`} width={50} alt="moon" className="cursor-pointer hover:shadow-xl shadow-lg rounded-full mt-5" />
 
         </div>
       </div>
@@ -27,17 +27,17 @@ function Home() {
           <li className="cursor-pointer"><Link to="about"
             spy={true}
             smooth={true}
-            hashSpy={true} duration={1000}>About</Link>
+            hashSpy={true} duration={1000}>ABOUT</Link>
           </li>
           <li className="cursor-pointer"><Link to="projects"
             spy={true}
             smooth={true}
-            hashSpy={true} duration={1000}>Projects</Link>
+            hashSpy={true} duration={1000}>PROJECTS</Link>
           </li>
           <li className="cursor-pointer"><Link to="Skills"
             spy={true}
             smooth={true}
-            hashSpy={true} duration={1000}>Skills</Link>
+            hashSpy={true} duration={1000}>SKILLS</Link>
           </li>
         </ul>
       </div>
