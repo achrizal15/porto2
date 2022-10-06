@@ -5,13 +5,13 @@ import { AiOutlineMail } from "react-icons/ai"
 
 function About() {
     return (
-        <div className='bg-transparent gray-50 snap-start h-screen snap-start dark:bg-[#7f7f7f] pt-10 dark:text-gray-100' id="about">
+        <div className='bg-transparent gray-50 snap-start pb-10 snap-start dark:bg-[#7f7f7f] pt-10 dark:text-gray-100' id="about">
             <h3 className="text-center text-2xl ">ABOUT ME</h3>
             <div className="grid md:grid-cols-12 md:mx-20 mt-20 px-5 md:gap-5">
                 <div className="md:col-span-4 flex  relative justify-center">
-                    <div className="flex flex-col bg-white dark:bg-[#6a6a6a] border dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] shadow-lg rounded-md">
-                        <div className="p-2 h-80 border-b dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] overflow-hidden">
-                            <img src="aku.png" width="300px" alt="aku" />
+                    <div className="flex p-4 flex-col bg-white dark:bg-[#6a6a6a] border dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] shadow-lg rounded-md">
+                        <div className="h-80 relative border-b  dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] overflow-hidden">
+                            <img src="aku.jpg" className="absolute -top-20"  alt="aku" />
                         </div>
                         <div className="p-4">
                             <table>
