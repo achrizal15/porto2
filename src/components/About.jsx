@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai"
 
 function About() {
     return (
-        <div className='bg-transparent gray-50 snap-start pb-10 snap-start dark:bg-[#7f7f7f] pt-10 dark:text-gray-100' id="about">
+        <div className='gray-50 pb-10 snap-start dark:bg-[#7f7f7f] pt-10 dark:text-gray-100' id="about">
             <h3 className="text-center text-2xl ">ABOUT ME</h3>
             <div className="grid md:grid-cols-12 md:mx-20 mt-20 px-5 md:gap-5">
                 <div className="md:col-span-4 flex  relative justify-center">
@@ -13,7 +13,6 @@ function About() {
                         <div className="h-80 relative border-b  dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] overflow-hidden">
                             <img src="aku.jpg" className="absolute -top-20"  alt="aku" />
                         </div>
-                        <div className="p-4">
                             <table>
                                 <tbody>
                                     <tr>
@@ -38,7 +37,7 @@ function About() {
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                   
                     </div>
                 </div>
                 <div className="md:col-span-8">
@@ -48,7 +47,7 @@ function About() {
                             <GoPrimitiveDot color="yellow" size={20} />
                             <GoPrimitiveDot color="green" size={20} />
                         </div>
-                        <div className="w-full shadow-lg bg-white border dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] rounded-b-md p-2">
+                        <div className="w-full shadow-lg bg-white border dark:bg-[#6a6a6a] border-gray-300 dark:border-[#5f5f5f] rounded-b-md p-4">
                             <br />
                             <h3 className="text-xl">Hi :)</h3> <br />
                             <div className="text-justify md:text-lg">

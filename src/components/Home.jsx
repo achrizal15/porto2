@@ -34,6 +34,11 @@ function Home() {
             smooth={true}
             hashSpy={true} duration={1000}>Projects</Link>
           </li>
+          <li className="cursor-pointer"><Link to="Skills"
+            spy={true}
+            smooth={true}
+            hashSpy={true} duration={1000}>Skills</Link>
+          </li>
         </ul>
       </div>
     </div>

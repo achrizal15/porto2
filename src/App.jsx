@@ -4,6 +4,7 @@ import About from "./components/About";
 import Home from "./components/Home"
 import { ACTION_REDUCER_MODE } from "./constans";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 //context and provider
 export const AppContext = createContext();
 const AppProvider = AppContext.Provider;
@@ -32,6 +33,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Skills/>
       </div>
     </AppProvider>
   );

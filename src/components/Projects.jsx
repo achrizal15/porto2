@@ -19,7 +19,7 @@ function Projects() {
             return (
               <div className="p-4 dark:bg-gray-800 hover:scale-105 transition duration-300 bg-white text-center shadow-md hover:shadow-2xl  overflow-hidden" key={k}>
                 <div className="w-52 mb-5 h-28 overflow-hidden">
-                  <img src={`projects/${v.image}`} className="h-32" alt="" />
+                  <img src={`projects/${v.image}`} className="h-32" alt="" loading="lazy" />
                 </div>
                 <span className="text-lg font-bold">{v.name}</span>
               </div>
